@@ -5,3 +5,4 @@ tensorflow-gan
 scenic @ git+https://github.com/google-research/scenic.git
 dmvr @ git+https://github.com/deepmind/dmvr.git
 -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
